@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap');
+
+.vogal-body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #cbfafe;
+
+}
+
+.top-vogal-body {
+    background-color: #55bcc9;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-vogal-body {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.titulo-vogal-body {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.input-vogal-check {
+    min-width: 50%;
+    min-height: 50px;
+    text-align: center;
+}
+
+.submit-vogal-check {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #cccccc;
+}
+
+.scoreboard-vogal {
+    height: 15%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    box-sizing: content-box;
+    overflow: hidden;
+    background-color: #55bcc9;
+}
